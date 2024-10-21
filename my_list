@@ -1,0 +1,5 @@
+
+my_list = ["sri andani", 1,2,3,4,1,2]
+panjang_my_list = len(my_list)
+my_list.append("pretty and cute") 
+print(my_list)
