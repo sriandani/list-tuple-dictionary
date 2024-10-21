@@ -1,0 +1,15 @@
+my_dict = {
+    "nama": "sriandani",
+    "usia": 19,
+    "jurusan": "IT"
+}
+
+print(my_dict["nama"])     
+print(my_dict["usia"])     
+
+my_dict["kota"] = "Mataram"
+
+my_dict["usia"] = 19
+
+for key, value in my_dict.items():
+    print(f"{key}: {value}")
